@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: inmetrics.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 48.091 s <<< FAILURE! - in inmetrics.runner.Runner
+| api@inmetrics.com | 17 |  | password: must not be blaank |.Entao valido as mensagens de retorno: "password: must not be blaank".  Time elapsed: 0.016 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...ord: must not be bla[a]nk> but was:<...ord: must not be bla[]nk>
+
+| api@inmetrics.com | 17 |  | password: must not be blaank |  Time elapsed: 0.021 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...ord: must not be bla[a]nk> but was:<...ord: must not be bla[]nk>
+

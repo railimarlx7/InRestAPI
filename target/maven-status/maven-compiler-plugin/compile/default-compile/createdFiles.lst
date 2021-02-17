@@ -1,0 +1,4 @@
+inmetrics\DELETE\DeleteUsuario.class
+inmetrics\POST\PostUsuario.class
+inmetrics\resources\VarsNovoUsuario.class
+inmetrics\GET\GetUsuario.class

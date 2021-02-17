@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="inmetrics.runner.Runner" time="48.091" tests="21" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\dooduar\eclipse-workspace\inRestApi\target\test-classes;C:\Users\dooduar\eclipse-workspace\inRestApi\target\classes;C:\Users\dooduar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dooduar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dooduar\.m2\repository\io\qameta\allure\allure-junit4\2.13.8\allure-junit4-2.13.8.jar;C:\Users\dooduar\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\dooduar\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\dooduar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\dooduar\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\dooduar\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\dooduar\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\dooduar\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\dooduar\.m2\repository\io\rest-assured\rest-assured\3.0.0\rest-assured-3.0.0.jar;C:\Users\dooduar\.m2\repository\org\codehaus\groovy\groovy\2.4.6\groovy-2.4.6.jar;C:\Users\dooduar\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.6\groovy-xml-2.4.6.jar;C:\Users\dooduar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\dooduar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\dooduar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dooduar\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\dooduar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\dooduar\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\dooduar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\dooduar\.m2\repository\io\rest-assured\json-path\3.0.0\json-path-3.0.0.jar;C:\Users\dooduar\.m2\repository\org\codehaus\groovy\groovy-json\2.4.6\groovy-json-2.4.6.jar;C:\Users\dooduar\.m2\repository\io\rest-assured\rest-assured-common\3.0.0\rest-assured-common-3.0.0.jar;C:\Users\dooduar\.m2\repository\io\rest-assured\xml-path\3.0.0\xml-path-3.0.0.jar;C:\Users\dooduar\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\dooduar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\dooduar\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\dooduar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;C:\Users\dooduar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\dooduar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\surefire-junit4\3.0.0-M5\surefire-junit4-3.0.0-M5.jar;C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M5\common-java5-3.0.0-M5.jar;C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\common-junit3\3.0.0-M5\common-junit3-3.0.0-M5.jar;C:\Users\dooduar\.m2\repository\org\apache\maven\surefire\common-junit4\3.0.0-M5\common-junit4-3.0.0-M5.jar;C:\Users\dooduar\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\dooduar\AppData\Local\Temp\surefire6379122558953530364 2021-02-17T09-58-42_876-jvmRun1 surefire5566158604482901764tmp surefire_06417964870159129855tmp"/>
+    <property name="test" value="Runner"/>
+    <property name="surefire.test.class.path" value="C:\Users\dooduar\eclipse-workspace\inRestApi\target\test-classes;C:\Users\dooduar\eclipse-workspace\inRestApi\target\classes;C:\Users\dooduar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dooduar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dooduar\.m2\repository\io\qameta\allure\allure-junit4\2.13.8\allure-junit4-2.13.8.jar;C:\Users\dooduar\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\dooduar\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\dooduar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\dooduar\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\dooduar\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\dooduar\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\dooduar\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\dooduar\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\dooduar\.m2\repository\io\rest-assured\rest-assured\3.0.0\rest-assured-3.0.0.jar;C:\Users\dooduar\.m2\repository\org\codehaus\groovy\groovy\2.4.6\groovy-2.4.6.jar;C:\Users\dooduar\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.6\groovy-xml-2.4.6.jar;C:\Users\dooduar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\dooduar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\dooduar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dooduar\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\dooduar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\dooduar\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\dooduar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\dooduar\.m2\repository\io\rest-assured\json-path\3.0.0\json-path-3.0.0.jar;C:\Users\dooduar\.m2\repository\org\codehaus\groovy\groovy-json\2.4.6\groovy-json-2.4.6.jar;C:\Users\dooduar\.m2\repository\io\rest-assured\rest-assured-common\3.0.0\rest-assured-common-3.0.0.jar;C:\Users\dooduar\.m2\repository\io\rest-assured\xml-path\3.0.0\xml-path-3.0.0.jar;C:\Users\dooduar\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\dooduar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\dooduar\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\dooduar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;C:\Users\dooduar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\dooduar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dooduar"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="C:\Users\dooduar\eclipse-workspace\inRestApi"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="railima"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\dooduar\.m2\repository"/>
+    <property name="cucumber.options" value="--tags @all --plugin pretty"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dooduar\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\dooduar\eclipse-workspace\inRestApi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\cmder\bin;C:\cmder\vendor\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_261\bin;C:\maven\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby24\bin;C:\Ruby26-x64\bin;C:\Ruby25-x64\bin;C:\Users\dooduar\AppData\Local\Microsoft\WindowsApps;C:\Users\dooduar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dooduar\AppData\Roaming\npm;C:\Program Files\Android\Android Studio\emulator;C:\Program Files\Android\Android Studio\platform-tools;C:\Program Files\Android\Android Studio\tools;C:\Program Files\Android\Android Studio\tools\bin;C:\Program Files\Android\Android Studio\build-tools;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\cmder;C:\cmder\vendor\git-for-windows\cmd;C:\cmder\vendor\git-for-windows\mingw64\bin;C:\cmder\vendor\git-for-windows\usr\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Dado que informo: email:&quot;api@inmetrics.com&quot;, empregadoId:&quot;17&quot;, password: &quot;&quot;." classname="| api@inmetrics.com | 17 |  | password: must not be blaank |" time="0.002">
+    <system-out><![CDATA[#language: pt
+#utf-8
+@all @post
+Funcionalidade: Cadastrar de empregado.
+  
+  Objetivo: 
+  		Cadastrar novo empregado
+
+  @post
+  Esquema do Cenário: Incluir Empregado utilizando metodo POST                               # adicionarEmpregado.feature:10
+    Dado que informo: email:"<e_mail>", empregadoId:"<empregadoId>", password: "<password>".
+    Entao valido as mensagens de retorno: "<mensagensRetorno>".
+
+    Exemplos: 
+Status code: 400
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Entao valido as mensagens de retorno: &quot;password: must not be blaank&quot;." classname="| api@inmetrics.com | 17 |  | password: must not be blaank |" time="0.016">
+    <failure message="expected:&lt;...ord: must not be bla[a]nk&gt; but was:&lt;...ord: must not be bla[]nk&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...ord: must not be bla[a]nk> but was:<...ord: must not be bla[]nk>
+]]></failure>
+  </testcase>
+  <testcase name="" classname="| api@inmetrics.com | 17 |  | password: must not be blaank |" time="0.021">
+    <failure message="expected:&lt;...ord: must not be bla[a]nk&gt; but was:&lt;...ord: must not be bla[]nk&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...ord: must not be bla[a]nk> but was:<...ord: must not be bla[]nk>
+]]></failure>
+  </testcase>
+  <testcase name="Dado que informo: email:&quot;api@inmetrics.com&quot;, empregadoId:&quot;&quot;, password: &quot;senha17&quot;." classname="| api@inmetrics.com |  | senha17 | empregadoId: must not be null |" time="0">
+    <system-out><![CDATA[
+  @post @all
+  Esquema do Cenário: Incluir Empregado utilizando metodo POST                   # adicionarEmpregado.feature:16
+    Dado que informo: email:"api@inmetrics.com", empregadoId:"17", password: "". # CadastroSteps.queInformoEmailEmpregadoIdPassword(String,String,String)
+    Entao valido as mensagens de retorno: "password: must not be blaank".        # CadastroSteps.validoAsMensagensDeRetorno(String)
+      org.junit.ComparisonFailure: expected:<...ord: must not be bla[a]nk> but was:<...ord: must not be bla[]nk>
+      	at org.junit.Assert.assertEquals(Assert.java:117)
+      	at org.junit.Assert.assertEquals(Assert.java:146)
+      	at inmetrics.test.validations.ValidacaoMensagens.mensagemCadastroUsuario(ValidacaoMensagens.java:13)
+      	at stepdefinition.CadastroSteps.validoAsMensagensDeRetorno(CadastroSteps.java:20)
+      	at ?.Entao valido as mensagens de retorno: "password: must not be blaank".(adicionarEmpregado.feature:12)
+
+Status code: 400
+]]></system-out>
+  </testcase>
+  <testcase name="Entao valido as mensagens de retorno: &quot;empregadoId: must not be null&quot;." classname="| api@inmetrics.com |  | senha17 | empregadoId: must not be null |" time="0"/>
+  <testcase name="" classname="| api@inmetrics.com |  | senha17 | empregadoId: must not be null |" time="0"/>
+  <testcase name="Dado que informo: email:&quot;api@&quot;, empregadoId:&quot;17&quot;, password: &quot;senha17&quot;." classname="| api@ | 17 | senha17 | email: must be a well-formed email address |" time="0">
+    <system-out><![CDATA[
+  @post @all
+  Esquema do Cenário: Incluir Empregado utilizando metodo POST                        # adicionarEmpregado.feature:17
+    Dado que informo: email:"api@inmetrics.com", empregadoId:"", password: "senha17". # CadastroSteps.queInformoEmailEmpregadoIdPassword(String,String,String)
+    Entao valido as mensagens de retorno: "empregadoId: must not be null".            # CadastroSteps.validoAsMensagensDeRetorno(String)
+Status code: 400
+]]></system-out>
+  </testcase>
+  <testcase name="Entao valido as mensagens de retorno: &quot;email: must be a well-formed email address&quot;." classname="| api@ | 17 | senha17 | email: must be a well-formed email address |" time="0"/>
+  <testcase name="" classname="| api@ | 17 | senha17 | email: must be a well-formed email address |" time="0"/>
+  <testcase name="Dado que consulto um empregado cadastrado com acessoID &quot;1&quot;." classname="| 1 | teste@inmetrics.com.br |" time="0">
+    <system-out><![CDATA[
+  @post @all
+  Esquema do Cenário: Incluir Empregado utilizando metodo POST                          # adicionarEmpregado.feature:18
+    Dado que informo: email:"api@", empregadoId:"17", password: "senha17".              # CadastroSteps.queInformoEmailEmpregadoIdPassword(String,String,String)
+    Entao valido as mensagens de retorno: "email: must be a well-formed email address". # CadastroSteps.validoAsMensagensDeRetorno(String)
+#language: pt
+#utf-8
+@all @get
+Funcionalidade: Consulta de empregado.
+  
+  Objetivo: 
+  		CONSULTAR empregado
+
+  @get
+  Esquema do Cenário: Consultar empregado utilizando metodo GET              # consultarEmpregado.feature:11
+    Dado que consulto um empregado cadastrado com acessoID "<acessoID>".
+    Entao valido as mensagens de retorno de consulta: "<mensagensConsulta>".
+
+    Exemplos: 
+teste@inmetrics.com.br
+]]></system-out>
+  </testcase>
+  <testcase name="Entao valido as mensagens de retorno de consulta: &quot;teste@inmetrics.com.br&quot;." classname="| 1 | teste@inmetrics.com.br |" time="0.002"/>
+  <testcase name="" classname="| 1 | teste@inmetrics.com.br |" time="0.003"/>
+  <testcase name="Dado que consulto um empregado cadastrado com acessoID &quot;88&quot;." classname="| 88 | Acesso não cadastrado |" time="0">
+    <system-out><![CDATA[
+  @get @all
+  Esquema do Cenário: Consultar empregado utilizando metodo GET                 # consultarEmpregado.feature:17
+    Dado que consulto um empregado cadastrado com acessoID "1".                 # ConsultaSteps.queConsultoUmEmpregadoCadastradoComAcessoID(String)
+    Entao valido as mensagens de retorno de consulta: "teste@inmetrics.com.br". # ConsultaSteps.validoAsMensagensDeRetornoDeConsulta(String)
+
+Acesso não cadastrado
+Status code: 400
+]]></system-out>
+  </testcase>
+  <testcase name="Entao valido as mensagens de retorno de consulta: &quot;Acesso não cadastrado&quot;." classname="| 88 | Acesso não cadastrado |" time="0"/>
+  <testcase name="" classname="| 88 | Acesso não cadastrado |" time="0"/>
+  <testcase name="Dado que excluo um empregado cadastrado com acessoID &quot;500&quot;." classname="| 500 | Acesso não cadastrado |" time="0.003">
+    <system-out><![CDATA[
+  @get @all
+  Esquema do Cenário: Consultar empregado utilizando metodo GET                # consultarEmpregado.feature:18
+    Dado que consulto um empregado cadastrado com acessoID "88".               # ConsultaSteps.queConsultoUmEmpregadoCadastradoComAcessoID(String)
+    Entao valido as mensagens de retorno de consulta: "Acesso não cadastrado". # ConsultaSteps.validoAsMensagensDeRetornoDeConsulta(String)
+#language: pt
+#utf-8
+@all @delete
+Funcionalidade: Exclusao de empregado.
+  
+  Objetivo: 
+  		EXCLUIR empregado
+
+  @delete
+  Esquema do Cenário: Excluir empregado utilizando metodo DELETE             # excluirEmpregado.feature:11
+    Dado que excluo um empregado cadastrado com acessoID "<acessoID>".
+    Entao valido as mensagens de retorno de exclusao: "<mensagensExclusao>".
+
+    Exemplos: 
+]]></system-out>
+  </testcase>
+  <testcase name="Entao valido as mensagens de retorno de exclusao: &quot;Acesso não cadastrado&quot;." classname="| 500 | Acesso não cadastrado |" time="0.003"/>
+  <testcase name="" classname="| 500 | Acesso não cadastrado |" time="0.004"/>
+  <testcase name="Dado que excluo um empregado cadastrado com acessoID &quot;1&quot;." classname="| 1 | Deletado |" time="0">
+    <system-out><![CDATA[
+  @delete @all
+  Esquema do Cenário: Excluir empregado utilizando metodo DELETE               # excluirEmpregado.feature:17
+    Dado que excluo um empregado cadastrado com acessoID "500".                # ExclusaoSteps.queExcluoUmEmpregadoCadastradoComAcessoID(String)
+    Entao valido as mensagens de retorno de exclusao: "Acesso não cadastrado". # ExclusaoSteps.validoAsMensagensDeRetornoDeExclusao(String)
+]]></system-out>
+  </testcase>
+  <testcase name="Entao valido as mensagens de retorno de exclusao: &quot;Deletado&quot;." classname="| 1 | Deletado |" time="0"/>
+  <testcase name="" classname="| 1 | Deletado |" time="0"/>
+</testsuite>

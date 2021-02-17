@@ -1,0 +1,5 @@
+inmetrics\runner\Runner.class
+stepdefinition\ExclusaoSteps.class
+stepdefinition\ConsultaSteps.class
+inmetrics\test\validations\ValidacaoMensagens.class
+stepdefinition\CadastroSteps.class
