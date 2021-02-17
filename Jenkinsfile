@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn clean test -Dtest=Runner -Dcucumber.options="--tags @all --plugin pretty" allure:report'
+                sh 'mvn clean test -Dtest=Runner -Dcucumber.options="--tags @all --plugin pretty"'
             }
             
         }
