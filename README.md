@@ -25,7 +25,7 @@ Desafio WEB - Inmetrics
 * **Será gerado automaticamente na execução do projeto via console**
 
 ## Imagem de execução pelo Jenkins
-![alt text](https://github.com/railimarlx7/inWEB/blob/master/Projeto-WEB.png)
+![alt text](https://github.com/railimarlx7/InRestAPI/blob/master/RestApi.png)
 
 ## Autor
 
